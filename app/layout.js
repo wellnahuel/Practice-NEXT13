@@ -1,14 +1,22 @@
 //import './globals.css'
+// import Navigation from "../components/Navigation";
+
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <body>{children}</body>
+    <html>
+      <head>
+        <title>Mi First Next 13 App</title>
+      </head>
+
+      <body>
+        {/*         <Navigation /> */}
+        {children}
+      </body>
     </html>
   )
 }
+
+
+
+//layout es la pagina que envuelve cada ruta
