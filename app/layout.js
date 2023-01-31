@@ -1,6 +1,5 @@
-//import './globals.css'
-// import Navigation from "../components/Navigation";
-
+import '../styles/globals.css'
+import { Navigation } from "./components/Navigation"
 
 export default function RootLayout({ children }) {
   return (
@@ -8,9 +7,8 @@ export default function RootLayout({ children }) {
       <head>
         <title>Mi First Next 13 App</title>
       </head>
-
       <body>
-        {/*         <Navigation /> */}
+        <Navigation />
         {children}
       </body>
     </html>
@@ -18,5 +16,5 @@ export default function RootLayout({ children }) {
 }
 
 
-
+//children tiene lo que se renderiza hacia abajo de nuestras rutas
 //layout es la pagina que envuelve cada ruta
