@@ -21,7 +21,7 @@ body {
   margin: 0 auto
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
     color-scheme: dark;
   }
