@@ -1,4 +1,4 @@
-
+'use client' //con esto avisamos que el componente se usa desde el cliente 
 
 import { useState } from 'react'
 
