@@ -1,7 +1,7 @@
 //import { useEffect, useState } from 'react'
 // creo una funcion fetchData
 
-import { ListOfPosts } from "./[id]/ListOfPosts";
+import { ListOfPosts } from "./ListOfPosts";
 
 export default async function PostsPage() {
     return (

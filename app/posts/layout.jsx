@@ -1,10 +1,10 @@
+//import { Counter } from './Counter.jsx'
+
 export default function PostsLayout ({ children }) {
     return (
         <div>
-            <h1>Este es el layout de los posts</h1>
+            <small> Home - Posts</small>
             {children}
         </div>
     )
 }
-
-//los layout mantienen siempre el estado 
