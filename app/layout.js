@@ -1,5 +1,10 @@
 import '../styles/globals.css'
+//import { Space_Grotesk } from '@next/font/google'
 import { Navigation } from "../components/Navigation"
+
+/* const font = Space_Grotesk ({
+  weight: ['400', '700']
+}) */
 
 export default function RootLayout({ children }) {
   return (

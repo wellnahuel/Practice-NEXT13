@@ -1,7 +1,7 @@
 export default function Loading() {
     return (
         <p>
-            Cargando comentarios...
+            Cargando comentarios... 
         </p>
     )
 }
